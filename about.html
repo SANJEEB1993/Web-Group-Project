@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        body{
+            background-color: white;
+        }
+
+        .row{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 1em 1em;
+            text-align: center;
+            margin: 0;
+        }
+
+        .column{
+            width: 48%;
+            padding: 0.2em 0;
+            margin: 0.2em;
+        }
+
+        @media (max-width: 1000px){
+            .column{
+                width: 100%;
+            }
+        }
+
+        h1{
+            color: black;
+            width: 100%;
+            text-align: center;
+            font-size: 3.5em;
+            font-family: Algerian;
+            animation-name: fadeaway;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes fadeaway{
+            from{
+                opacity: 0;
+                transform: scale(1.5);
+            }
+
+            to{
+                opacity: 1;
+            }
+        }
+
+        @keyframes translate{
+            from{
+                transform: -120%;
+            }
+            to{
+                transform: 800%;
+            }
+        }
+
+        .card{
+            position: relative;
+            height: auto;
+            /*box-shadow: 0 0 1em #403f41;*/
+            padding: 3.5em 1em;
+            border-radius: 0.6em;
+            color: black;
+            cursor: pointer;
+            background: linear-gradient(rgb(236, 196, 125),rgb(219, 171, 89));
+        }
+
+        .animatedheading{
+            position: absolute;
+            top: 10px;
+            animation-name: fadeaway;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+
+        .card .img-container{
+            width: 12em;
+            height: 12em;
+            background-color: rgb(240, 229, 229);
+            padding: 0.5em;
+            border-radius: 50%;
+            margin: 0 auto 2em auto;
+        }
+
+        .image{
+            width: 11em;
+            height: 11em;
+            border-radius: 50%;
+        }
+
+        .card h3{
+            font-size: 30px;
+            font-weight: 700;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .card p{
+            font-size: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin: 0.5em 0 2em 0;
+            letter-spacing: 2px;
+        }
+
+        .icons{
+            width: 50%;
+            min-width: 180px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .card a{
+            text-decoration: none;
+            color: inherit;
+            font-size: 1.4em;
+            transition: 0.3s;
+        }
+
+        .card a:hover{
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="row">
+            <h1>Our Team</h1>
+        </div>
+        <div class="row">
+            <!--Column 1-->
+            <div class="column">
+                <div class="card">
+                    <h2 class="animatedheading">M22W7260</h2>
+                    <div class="img-container">
+                        <img class="image" src="images/ABOUT/profile-1.jpg">
+                    </div>
+                    <h3>Sanjeeb Tamang</h3>
+                    <p>Team Leader</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <!--Column 2-->
+             <div class="column">
+                <div class="card">
+                    <h2 class="animatedheading">M22W7184</h2>
+                    <div class="img-container">
+                        <img class="image" src="images/ABOUT/profile-2.jpg">
+                    </div>
+                    <h3>Prakash Singh Thagunna</h3>
+                    <p>Member</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!--Column 3-->
+            <div class="column">
+                <div class="card">
+                    <h2 class="animatedheading">M22W7147</h2>
+                    <div class="img-container">
+                        <img class="image" src="images/ABOUT/profile-3.jpg">
+                    </div>
+                    <h3>Sangita Tamang</h3>
+                    <p>Member</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+             <!--Column 4-->
+             <div class="column">
+                <div class="card">
+                    <h2 class="animatedheading">M22W7262</h2>
+                    <div class="img-container">
+                        <img class="image" src="images/ABOUT/profile-4.jpg">
+                    </div>
+                    <h3>Sheestata Gurung</h3>
+                    <p>Member</p>
+                    <div class="icons">
+                        <a href="#">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

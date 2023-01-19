@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulture Restaurant</title>
+    <style>
+         body{
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .photo{
+            width: 100%;
+            height: 500px;
+            margin-bottom: 5px;
+            overflow: hidden;
+        }
+
+        .photo img{
+            width: 100%;
+            height: auto;
+        }
+
+        .intro{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .content{
+            width: 50%;
+            height: auto;
+            font-size: 15px;
+        }
+
+        p{
+            padding-right: 5px;
+            text-align: justify;
+        }
+
+        .content iframe{
+            width: 100%;
+            height: 400px;
+            padding: 0px;
+        }
+
+        .container{
+            display: flex;
+            max-width: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container img{
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            object-position: bottom;
+            padding: 5px;
+            margin: 5px;
+            transition: 0.3s;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+            border-radius: 5px;
+        }
+
+        .container img:hover{
+            cursor: pointer;
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        .footer {
+        width: 100%;
+        /*height: 200px;*/
+        /* background-color: #30475e; */
+        clear: both;
+        }
+
+        .footer_column {
+        width: 50%;
+        background-color: #30475e;
+        float: left;
+        }
+
+        .footer_column p {
+        color: white;
+        padding: 20px;
+        /* border-right: 1px solid #fff;*/
+        }
+
+        .footer_column a {
+        color: white;
+        text-decoration: none;
+        }
+
+        .footer_column a:hover {
+        text-decoration: underline;
+        }
+
+        button{
+            background: none;
+            width: 80px;
+            height: 30px;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 0;
+            transition: 0.5s;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+            background-color:rgb(127,255,212, 0.5);
+        }
+
+        button a{
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media (max-width:819px){
+            .container img{
+                width: 100%;
+            }
+
+            .footer_column{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 760px){
+            .photo{
+                height: auto;
+            }
+        }
+
+        @media (max-width:1277px){
+            .intro{
+                display: block;
+                justify-content: left;
+                align-items: left;
+            }
+            .content{
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width:650px){
+            .content{
+                margin: 0;
+                padding: 0;
+            }
+            .content iframe{
+                padding-top: 0;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="photo">
+        <img src="https://www.wildlifeact.com/wp-content/uploads/2019/07/Vulture-Restaurants.jpg">
+    </div>
+
+    <div class="heading">
+        <h1 style="font-family: Algerian;"> Restaurant of Vulture: Jatayu Restaurant</h1>
+    </div>
+
+    <div class="intro">
+        <div class="content">
+            <p>Vulture, a fairly common natural scavenger birds about two decades ago are in grave danger of extinction across the Indian subcontinent now. Study in India indicates that Oriental White-backed Vultures declined by 99.9% over the period 1992 to 2007, and Long-billed and Slender-billed Vultures decreased by 96.8% over the same period and Red-headed Vulture declined by 91% from 1990s to 2003. Within Nepal, research and monitoring of vulture species has been undertaken in lowland areas and has revealed similar declines of 91% for Oriental White-backed Vulture and 96% for Slender-billed Vulture between 1995 and 2011. Due to similar declines elsewhere in South Asia in 1990s, four species out of nine species of vultures in Nepal, Oriental White-backed Vulture, Long-billed Vulture, Slender-billed Vulture and Red-headed Vulture were up listed by IUCN as “Critically Endangered” which is highest category of endangerment.
+            <br/><br/>
+            Vultures play a highly important ecological role through the rapid consumption of animal carcasses. They do safely disposing off dead animals and help in preventing the spread of zoonotic diseases. The losses of a major scavenger from the ecosystem have associated disease risks for wildlife, livestock and humans including the spread of rabies, anthrax, tuberculosis and brucellosis. They also have an important cultural role in the consumption of human dead bodies in sky burials within Nepal and Tibet. Among Lama People in Trans Himalayan range the dead human body is cut in to pieces and offered to vulture. In this dry environment where burial and incineration are impossible, vultures are the cleaner of the environment. In Hindu mythology, a vulture is said to be the carrier of God Sani (Saturn); and a vulture struggled with Ravana to stop kidnap of Sita in the Ramayan.
+            <br/><br/>
+            The main cause of these declines of vultures is veterinary drug diclofenac which is widely used to treat livestock in Asia. Vultures are highly susceptible to Non-Steroidal Anti-Inflammatary Drug, diclofenac, they are exposed to the drug through the carcasses of treated livestock. Vultures that consume tissue from diclofenac treated animal carcasses induced kidney failure with clinical signs of visceral gout.
+            In order to halt the decline of the critically endangered vultures in Nepal, Government of Nepal banned production and use of veterinary diclofenac in 2006; prepared and implemented the first Vulture Conservation Action Plan for Nepal (2009-13) and revised to Vulture Conservation Action Plan for Nepal (2015-19) which is being implemented now. The one of the milestone work on vulture conservation in Nepal is establishment of Vulture Restaurant.
+            </p>      
+        </div>
+        <div class="content">
+            <iframe src="https://www.youtube.com/embed/V9twp67MdPs" allow="accelerometer; autoplay; clipboard-write; encrypted-media; loop; muted"></iframe>
+            <!--<video autoplay loop muted>
+                <source src="videos/vulture.mp4" type="video/mp4">
+            </video>-->
+        </div>
+    </div>
+
+    <h2 style="font-family: Algerian;"> About: Importance </h2>
+		
+		<p>
+            A Vulture Restaurant is restaurant for vultures, not for humans. The community managed Vulture Restaurant popularly called Jatayu Restaurants are pioneer and unique concept among the conservation community. Now seven Vulture Restaurants are on operation in Nepal where safe food is provided to vultures. These Vulture Restaurants collect old and unproductive cattle from the farmers and rear them in Cow Rescue Centre. In Nepal cows are regarded as sacred animals and its killing is punishable by law. Thus, when cattle become old and unproductive, they are often a burden to farmers. Cow Rescue Centre of Vulture Restaurant is best alternative place to donate the cows where provide a good care until their natural death. After the natural death of cattle, carcass fed to the vultures.The cattle carcasses are placed at a designated dining place where vultures then come to feed. A hide is ideally placed to observe the vultures while they feed without disturbing them. Visitors can also enjoy the aerial acrobatics performed by the vultures as they circle the area. These restaurants generally attract most species of resident as well as migrant vultures. There are also plenty of opportunities to study other raptors and a variety of other birds. A visitor centre also provides information on diverse aspects of these majestic creatures and the conservation efforts carried out to safeguard them. In addition, the visitor centre provides information on diclofenac or other potentially vulture-dangerous drugs, and the cultural and natural history of the area. This conservation effort is not only linked with biodiversity conservation, livelihoods are sustained through this as well. Vulture Restaurants have been an attraction to local and international tourism and have linked to promote ecotourism.
+            <br/><br/>
+            The conservation efforts that have been put so far have shown some significant output on conserving vultures, promotion of eco-tourism, education and awareness and supporting the community livelihoods. Local communities operate the vulture restaurants to provide safe food for vultures and provide vulture conservation activities in the area. In return local communities receive income directly and indirectly from tourism. From the cattle, the community can sell hide to the leather industry and bones and manure to the fertiliser industry. Bird Conservation Nepal also provide supportive funds and skills to generate community industries like home stay operation, nature guide training, fish farming, bee-keeping, candle and incense sticks making, vegetables farming, pig farming, goat farming and dairies.
+		</p>
+
+        <h2 style="font-family: Algerian;">Some Glimpses</h2>
+        <div class="container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJxKsq2v8BMf8sO_58oLtiMNJBe6DmbqwAw&usqp=CAU" alt="" srcset="">
+            <img src="https://www.wildlifeact.com/wp-content/uploads/2019/07/Vulture-Restaurants.jpg" alt="" srcset="">
+            <img src="https://pokharabirdsociety.org/wp-content/uploads/2022/08/Vulture-Poster-2022-1_page-0001-754x1024.jpg" alt="" srcset="">
+            <img src="http://naturekhabar.com/wp-content/uploads/2017/08/Vultures-feeding-at-Vulture-restaurant-1024x535.jpg" alt="" srcset="">
+            <img src="http://naturekhabar.com/wp-content/uploads/2017/08/Tourist-observing-vulture-feeding-at-Jatayu-Restaurant.jpg" alt="" srcset="">
+            <img src="https://pureofftheroad.com/wp-content/uploads/2020/07/nepal-chitwan-vultures-map.jpg" alt="" srcset="">
+            <img src="https://pureofftheroad.com/wp-content/uploads/2020/07/nepal-chitwan-vulture-program.jpg" alt="" srcset="">
+            <img src="https://th.bing.com/th/id/OIP.qFE-kGAd1ftzdhToonrLEAHaEK?w=318&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" srcset="">
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="footer">
+        
+            <div class="footer_column">
+              <div style="border-right: 1px solid #fff">
+                <h2 style=" font-family: 'Roboto', sans-serif; color:white; padding: 20px;"><button><a href="index.html">Home</a></button></h2>
+                <ul style="padding: 20px; color:white; font-family: 'Roboto', sans-serif; list-style-type: none;">
+                  <li><a href="bethanchowk.html">Bethanchowk</a></li>
+                  <li><a href="sailung.html">Sailung</a></li>
+                  <li><a href="panchpokhari.html">Panchpokhari</a></li>
+                  <li><a href="20thousand.html">20 Thousand Lake</a></li>
+                  <li><a href="api.html">Mt. Api</a></li>
+                </ul>
+              </div>
+            </div>
+        
+            <div class="footer_column">
+        
+              <div>
+                <h2 style=" font-family: 'Roboto', sans-serif; color:white; padding: 20px;"> SOME QUICK LINKS</h2>
+                <ul style="padding: 20px; color:white; font-family: 'Roboto', sans-serif; list-style-type: none;">
+                  <li><a href="#">Vulture Restaurant Trip</a></li>
+                  <li><a href="#">Vulture Restaurant Sightseeing</a></li>
+                  <li><a href="#">Short Trip</a></li>
+                  <li><a href="#">1 day trip to Vulture Restaurant</a></li>
+                  <li><a href="#">Amigo Treks & Expedition</a></li>
+                </ul>
+              </div>
+        
+            </div>
+        
+          </div>        
+</body>
+</html>

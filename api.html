@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mt. API</title>
+
+    <style>
+
+        body{
+            box-sizing: border-box;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+        .photo{
+            width: 100%;
+            height: 500px;
+            margin-bottom: 5px;
+            overflow: hidden;
+        }
+
+        .photo img{
+            width: 100%;
+            height: auto;
+        }
+
+        .intro{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        
+        .content{
+            width: 50%;
+            height: 400px;
+            font-size: 15px;
+        }
+
+        p{
+            padding-right: 5px;
+            text-align: justify;
+        }
+
+        .content iframe{
+            width: 100%;
+            height: 400px;
+            padding: 0px;
+        }
+
+        .container{
+            display: flex;
+            max-width: 100%;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .container img{
+            width: 400px;
+            height: 250px;
+            object-fit: cover;
+            object-position: bottom;
+            padding: 5px;
+            margin: 5px;
+            transition: 0.3s;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 255, .2);
+            border-radius: 5px;
+        }
+
+        .container img:hover{
+            cursor: pointer;
+            opacity: 0.9;
+            transform: scale(1.05);
+        }
+
+        .footer {
+        width: 100%;
+        /*height: 200px;*/
+        /* background-color: #30475e; */
+        clear: both;
+        }
+
+        .footer_column {
+        width: 50%;
+        background-color: #30475e;
+        float: left;
+        }
+
+        .footer_column p {
+        color: white;
+        padding: 20px;
+        /* border-right: 1px solid #fff;*/
+        }
+
+        .footer_column a {
+        color: white;
+        text-decoration: none;
+        }
+
+        .footer_column a:hover {
+        text-decoration: underline;
+        }
+
+        button{
+            background: none;
+            width: 80px;
+            height: 30px;
+            border: 2px solid white;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 0;
+            transition: 0.5s;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+            background-color:rgb(127,255,212, 0.5);
+        }
+
+        button a{
+            font-size: 20px;
+            padding: 0;
+            margin: 0;
+        }
+
+        @media (max-width:819px){
+            .container img{
+                width: 100%;
+            }
+
+            .footer_column{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 760px){
+            .photo{
+                height: auto;
+            }
+        }
+
+        @media (max-width:1277px){
+            .intro{
+                display: block;
+                justify-content: left;
+                align-items: left;
+            }
+            .content{
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width:650px){
+            .content{
+                margin: 0;
+                padding: 0;
+            }
+            .content iframe{
+                padding-top: 0;
+                margin-top: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="photo">
+        <img src="images/API/20.jpg">
+    </div>
+
+    <div class="heading">
+        <h1 style="font-family: Algerian;"> MT. API</h1>
+    </div>
+
+    <div class="intro">
+        <div class="content">
+            <p>Mount Api, situated at 7,132m, is the highest mountain in the Yoka Pahar Section of Gurans Himal. The attractive Api mountain rises between the Indian sub-continent and frozen plains of Tibetan Plateau in Humla District of Nepal. It is located at the north-west corner of Nepal near the borders of India and Tibet. Api Peak is a climbing peak in the Byas-Rishi mountain range of Khumbu Byas municipality of Darchula. It is somehow a straightforward mountain and less technical than compared to other peaks. However, one should be experienced and should have proper knowledge about how to use climbing gears.
+            <br/><br/>
+            The area of the Api himal is very remote and untouched. Only a few tourists have visited this region. This area consists of a wild and extremely beautiful mountain landscape full of eotic people, rapid rivers and pristine forest. This area is a very remote area with virgin nature, off beaten path, mysterious culture and panoramic mountain’s view of Nandadevi (7817m, located in Uttar Pradesh of India) Rajramba (6,537m), Kapchuli Peak(6,850m) and many other snow-capped mountains. 
+            <br/><br/>
+            There is also a lake called kalidhunga, which is about 2 hours by walking from base camp. This is one of the holy lakes of this area. This region is popular for bird habitat. Over 118 species of bird including the Impeyan Pheasant, Snow Cock, Blood Pheasant, and Red-billed Cough are found in this area. You will also get a chance to encounter many endangered animals like Red Panda, Snow Leopard, Musk Deer, Himalayan Tahr, Marten, Himalayan Mouse Hare (Pika) and so on. Agriculture is the main occupation of people living in this region. The cultural variety is maintained by the local community which includes Chhetries, Mahara, Bohora,Thekare, Jhakari, and Lohar.
+            </p>      
+        </div>
+        <div class="content">
+            <iframe src="https://www.youtube.com/embed/_cWnb_iedfg"; allow="autoplay; loop; muted"></iframe>
+            <!--<video autoplay loop muted>
+                <source src="videos/api.mp4" type="video/mp4">
+            </video>-->
+        </div>
+    </div>
+
+    <h2 style="font-family: Algerian;"> Best Season To Visit </h2>
+		
+		<p>
+		Api peak climbing is a wonderful journey. The popular month for climbing this peak is in spring (March to May) and autumn (September to November) season. The skies are clear and beautiful during these seasons. You can see the snow-covered peaks and the Himalayan ranges up close with the clouds distracting you. But, this climb is doable in other seasons also. However, you’ll need proper planning and the right trekking gear to deal with the weather and temperature.
+		Api Peak climbing expedition is around 45-55 days challenging adventure trips.The expedition starts from Kathmandu where you will make essential backpacking and preparation. It takes about 20 days for you to attempt the summit during which you take days rest and construct different camps at different heights for acclimatization.
+		The total cost for climbing Api peak varies as per the services, itinerary and route you take. However, normal price for climbing this peak is:
+		<br/>
+		Spring - US $ 12,000
+		<br/>
+		Autumn - US $ 11,800
+		<br/>
+		Winter/Summer - Us $ 11,600
+		</p>
+
+        <h2 style="font-family: Algerian;">Some Glimpses</h2>
+        <div class="container">
+            <img src="images/API/1.jpeg" alt="" srcset="">
+            <img src="images/API/2.jpg" alt="" srcset="">
+            <img src="images/API/3.jpg" alt="" srcset="">
+            <img src="images/API/4.jpg" alt="" srcset="">
+            <img src="images/API/5.jpg" alt="" srcset="">
+            <img src="images/API/6.jpg" alt="" srcset="">
+        </div>
+
+        <br/>
+        <br/>
+
+        <div class="footer">
+        
+            <div class="footer_column">
+              <div style="border-right: 1px solid #fff">
+                <h2 style=" font-family: 'Roboto', sans-serif; color:white; padding: 20px;"><button><a href="index.html">Home</a></button></h2>
+                <ul style="padding: 20px; color:white; font-family: 'Roboto', sans-serif; list-style-type: none;">
+                  <li><a href="bethanchowk.html">Bethanchowk</a></li>
+                  <li><a href="sailung.html">Sailung</a></li>
+                  <li><a href="panchpokhari.html">Panchpokhari</a></li>
+                  <li><a href="20thousand.html">20 Thousand Lake</a></li>
+                  <li><a href="vulture.html">Vulture Restaurant</a></li>
+                </ul>
+              </div>
+            </div>
+        
+            <div class="footer_column">
+        
+              <div>
+                <h2 style=" font-family: 'Roboto', sans-serif; color:white; padding: 20px;"> SOME QUICK LINKS</h2>
+                <ul style="padding: 20px; color:white; font-family: 'Roboto', sans-serif; list-style-type: none;">
+                  <li><a href="https://www.explore-share.com/trip/20-day-mount-api-trek-nepal/">20-day Mount Api Trek in Nepal</a></li>
+                  <li><a href="https://www.friendsadventure.com/api-expedition.php">Mount Api Expedition</a></li>
+                  <li><a href="https://www.nepalkailashtrekking.com/api-base-camp-trek.html">Api Base Camp Trek</a></li>
+                  <li><a href="https://www.mountmania.com/api-base-camp-trek">13 Days Api Base Camp Trek</a></li>
+                  <li><a href="https://www.amigotrekking.com/api-base-camp-trek.html">Amigo Treks & Expedition</a></li>
+                </ul>
+              </div>
+        
+            </div>
+        
+          </div>        
+</body>
+</html>
